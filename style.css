@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center; /* horizontally center */
+      align-items: center;
+}
+
+header{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+header p{
+    padding-top: 8px;
+}
+
+nav{
+    background-color:  rgb(57, 56, 56);
+    text-align: center;
+    padding: 12px ;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 20px;
+    
+}
+
+section {
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 2px 2px 10px rgba(8, 8, 8, 0.1);
+}
+
+#about h2{
+    color: rgb(23, 151, 243);
+    padding-bottom: 15px;
+}
+
+#schedule h2{
+    color: rgb(23, 151, 243);
+}
+
+#schedule table{
+    width: 100%;
+    
+    padding: 8px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#schedule table th{
+    background-color: rgb(235, 233, 233);
+}
+
+#schedule table th,td{
+    border: 1px solid black; 
+    padding: 8px;
+}
+
+#speakers h2, strong{
+    color: rgb(23, 151, 243);
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+#contact h2{
+    color: rgb(23, 151, 243)
+}
+
+form label{
+    display: block;
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+form input,
+form textarea{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 18px;
+        }
+
+.bn{
+    display: flex;
+    justify-content: center;
+      
+}
+.btn  {
+     
+        background-color: #007bff;
+        color: white;
+        max-width: 600px;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        padding: 14px;
+        margin-bottom: 18px;
+        box-sizing: border-box;
+  }
